@@ -4,9 +4,9 @@ TEAM MEMBERS:
 
 Jashan Yadav    (2310992105)-(Project Tester)
 
-Jasmeet Singh   (2310992108)-(Project Developer)
+Jasmeet Singh   (2310992108)-(Project Manager)
 
-Tanish Wadhwa   (2310992149)-(Project Manager)
+Tanish Wadhwa   (2310992149)-(Project Developer)
 
 Ridhima Sharma  (2310992509)-(Project Tester)
 
