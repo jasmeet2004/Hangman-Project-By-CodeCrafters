@@ -34,4 +34,4 @@ INSTRUCTIONS FOR RUNNING THIS GAME:
 
 (i)Follow the on-screen instructions to select a category and difficulty mode, and then start guessing letters to uncover the hidden word.
 
-(j)After completing a game, you'll be prompted to play again. Type "yes" to play another round or "no" to exit the game. Enjoy playing Hangman!.
+(j)After completing a game, you'll be prompted to play again. Type "yes" to play another round or "no" to exit the game. Enjoy playing Hangman!
