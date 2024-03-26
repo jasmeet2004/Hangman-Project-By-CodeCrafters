@@ -12,26 +12,33 @@ Ridhima Sharma  (2310992509)-(Project Tester)
 
 A BRIEF DESCRIPTION ABOUT THE PROJECT:
 
-The Hangman game project is a Python-based console game where players engage in word-guessing fun across different categories like animals, fruits, or countries, each with varying difficulty levels. Players select a category and difficulty mode, and the game randomly selects a word for them to guess. To aid in their guessing, players receive hints related to the chosen word. As players input letters, the game reveals correctly guessed ones while visually depicting the progression of a hangman for incorrect guesses. The game incorporates a finite number of attempts, represented as "lives," and players win by guessing the word correctly within these limits. If players exhaust all attempts without guessing the word, they lose the game. The project's design prioritizes modularity, enabling easy expansion and maintenance, while also implementing robust error handling to ensure smooth gameplay. Additionally, comprehensive documentation accompanies the codebase, offering clear insights into the game's mechanics and facilitating user understanding and potential contributions. Overall, the Hangman game project provides an engaging and interactive gaming experience while promoting code readability and maintainability through its structured design and documentation practices.
+This Python project implements a classic Hangman game, offering players an interactive and entertaining experience with various word categories and difficulty levels. The game begins with a user interface displaying the title "HANGMAN" in colorful ASCII art rendered using the pyfiglet module, creating an appealing visual introduction. Players are prompted to select a category from options like Animals, Fruits, Countries, Sports, and Car Companies, and then choose a difficulty level: easy, medium, or difficult.
+Once the category and difficulty level are chosen, a random word from the selected category and difficulty is generated for the player to guess. The game provides hints related to the chosen word, aiding players in their guesses. The user interface is designed to enhance the gaming experience, with colorful text and visual prompts guiding players through each step of the game.
+During gameplay, players input letters to guess the hidden word. Correct guesses reveal the positions of the letters within the word, while incorrect guesses result in the deduction of lives and progression through the Hangman stages. The hangman_stages module likely contains ASCII art representing the Hangman's gallows and stages of completion, adding visual interest and suspense to the game.
+As players progress, they earn points for each correct guess and lose points for each incorrect guess. The score is displayed throughout the game, providing feedback and motivation for players to continue playing and improve their performance.
+At the end of each round, players are presented with ASCII art messages indicating whether they have won or lost the game. They are then given the option to play again or exit the game, ensuring a seamless and enjoyable gaming experience.
+Overall, this Hangman game project combines elements of ASCII art, user interaction, and game mechanics to create a fun and engaging gameplay experience suitable for players of all ages. Its variety of word categories and difficulty levels make it a versatile and replayable game that can entertain players for hours on end.
 
 INSTRUCTIONS FOR RUNNING THIS GAME:
 
-(a)Ensure you have Python installed on your system. You can download and install Python from the official website: https://www.python.org/downloads/
+(a)Launch the Game: Run the Python script in a Python environment or an IDE capable of running Python scripts.
 
-(b)Copy the provided code into a Python file, for example, hangman_game.py, using a text editor or an Integrated Development Environment (IDE) like Visual Studio Code, PyCharm, or IDLE.
+(b)Install PyFiglet: PyFiglet is used to render ASCII art text in the game. You can install it via pip, Python's package manager.
 
-(c)Save the file.
+(c)Title and Instructions: Upon launching, the game displays the title "HANGMAN" in colorful ASCII art. It provides instructions indicating that players will earn points for correct guesses and lose points for incorrect ones. Additionally, players are informed about the categories available for selection: Animals, Fruits, Countries, Sports, and Car Companies.
 
-(d)If you haven't already, create a Python file named hangman_stages.py and define the Hangman_stages dictionary containing ASCII art for different stages of the hangman.
+(d)Choose Category and Difficulty: Players are prompted to choose a category from the available options by entering the corresponding keyword (e.g., "Animals"). Then, they select a difficulty level by entering "easy," "medium," or "difficult."
 
-(e)Save the hangman_stages.py file in the same directory as the hangman_game.py file.
+(e)Receive Hint: After selecting the category and difficulty, the game provides a hint related to the chosen word from the selected category.
 
-(f)Open a terminal or command prompt.
+(f)Guess Letters: Players start guessing letters to uncover the hidden word. They input one letter at a time, trying to guess the word based on the provided hint and their knowledge of the category.
 
-(g)Navigate to the directory where you saved the hangman_game.py file.
+(g)Progress and Feedback: As players make guesses, the game updates the display to show correctly guessed letters and underscores for letters that have not yet been guessed. Players receive feedback on their guesses, with correct guesses revealing letters in the word and incorrect guesses deducting lives.
 
-(h)Run the game by typing python hangman_game.py and pressing Enter.
+(h)Visual Progress: The game visually represents the Hangman's gallows and stages of completion using ASCII art. As players make incorrect guesses, the Hangman's figure progresses, adding suspense to the game.
 
-(i)Follow the on-screen instructions to select a category and difficulty mode, and then start guessing letters to uncover the hidden word.
+(i)Win or Lose: The game continues until the player either correctly guesses the word or runs out of lives. If the player guesses the word correctly, they win the game, and an ASCII art message congratulating them is displayed. If the player exhausts all their lives without guessing the word, they lose the game, and an ASCII art message indicating defeat is shown.
 
-(j)After completing a game, you'll be prompted to play again. Type "yes" to play another round or "no" to exit the game. Enjoy playing Hangman!
+(j)Play Again: After each game, players have the option to play again or exit the game. If they choose to play again, they can select a new category and difficulty level to start a new round.
+
+(k)Score Tracking: Throughout the game, players' scores are updated based on their guesses. The final score is displayed at the end of the game, providing feedback on their performance.
