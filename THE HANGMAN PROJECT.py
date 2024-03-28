@@ -127,7 +127,7 @@ while True:
         if guessed_letter in a:
             print("You are repeating the incorrect letter again\n")
         elif guessed_letter in display:
-            print("You have already guesed that letter\n")
+            print("You have already guessed that letter\n")
         else:
             for j in range(len(chosen)):
                 letter=chosen[j]
