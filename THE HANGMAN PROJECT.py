@@ -4,7 +4,7 @@ import pyfiglet
 score=0
 text=pyfiglet.print_figlet(text="HANGMAN",colors="Cyan",font="Slant")
 
-print("\nNOTE:You will get 5 points for every right guess and -2 for every wrong guess")
+print("\nNOTE:You will get 5 points for every right guess and -2 for every wrong guess.")
 while True:
     
     category=input("\nWhich category words you want to guess(Animals,Fruits,Countries,Sports,Car companies)?:").upper()
