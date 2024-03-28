@@ -21,24 +21,24 @@ Overall, this Hangman game project combines elements of ASCII art, user interact
 
 INSTRUCTIONS FOR RUNNING THIS GAME:
 
-(a)Launch the Game: Run the Python script in a Python environment or an IDE capable of running Python scripts.
+(1)Launch the Game: Run the Python script in a Python environment or an IDE capable of running Python scripts.
 
-(b)Install PyFiglet: PyFiglet is used to render ASCII art text in the game. You can install it via pip, Python's package manager.
+(2)Install PyFiglet: PyFiglet is used to render ASCII art text in the game. You can install it via pip, Python's package manager.
 
-(c)Title and Instructions: Upon launching, the game displays the title "HANGMAN" in colorful ASCII art. It provides instructions indicating that players will earn points for correct guesses and lose points for incorrect ones. Additionally, players are informed about the categories available for selection: Animals, Fruits, Countries, Sports, and Car Companies.
+(3)Title and Instructions: Upon launching, the game displays the title "HANGMAN" in colorful ASCII art. It provides instructions indicating that players will earn points for correct guesses and lose points for incorrect ones. Additionally, players are informed about the categories available for selection: Animals, Fruits, Countries, Sports, and Car Companies.
 
-(d)Choose Category and Difficulty: Players are prompted to choose a category from the available options by entering the corresponding keyword (e.g., "Animals"). Then, they select a difficulty level by entering "easy," "medium," or "difficult."
+(4)Choose Category and Difficulty: Players are prompted to choose a category from the available options by entering the corresponding keyword (e.g., "Animals"). Then, they select a difficulty level by entering "easy," "medium," or "difficult."
 
-(e)Receive Hint: After selecting the category and difficulty, the game provides a hint related to the chosen word from the selected category.
+(5)Receive Hint: After selecting the category and difficulty, the game provides a hint related to the chosen word from the selected category.
 
-(f)Guess Letters: Players start guessing letters to uncover the hidden word. They input one letter at a time, trying to guess the word based on the provided hint and their knowledge of the category.
+(6)Guess Letters: Players start guessing letters to uncover the hidden word. They input one letter at a time, trying to guess the word based on the provided hint and their knowledge of the category.
 
-(g)Progress and Feedback: As players make guesses, the game updates the display to show correctly guessed letters and underscores for letters that have not yet been guessed. Players receive feedback on their guesses, with correct guesses revealing letters in the word and incorrect guesses deducting lives.
+(7)Progress and Feedback: As players make guesses, the game updates the display to show correctly guessed letters and underscores for letters that have not yet been guessed. Players receive feedback on their guesses, with correct guesses revealing letters in the word and incorrect guesses deducting lives.
 
-(h)Visual Progress: The game visually represents the Hangman's gallows and stages of completion using ASCII art. As players make incorrect guesses, the Hangman's figure progresses, adding suspense to the game.
+(8)Visual Progress: The game visually represents the Hangman's gallows and stages of completion using ASCII art. As players make incorrect guesses, the Hangman's figure progresses, adding suspense to the game.
 
-(i)Win or Lose: The game continues until the player either correctly guesses the word or runs out of lives. If the player guesses the word correctly, they win the game, and an ASCII art message congratulating them is displayed. If the player exhausts all their lives without guessing the word, they lose the game, and an ASCII art message indicating defeat is shown.
+(9)Win or Lose: The game continues until the player either correctly guesses the word or runs out of lives. If the player guesses the word correctly, they win the game, and an ASCII art message congratulating them is displayed. If the player exhausts all their lives without guessing the word, they lose the game, and an ASCII art message indicating defeat is shown.
 
-(j)Play Again: After each game, players have the option to play again or exit the game. If they choose to play again, they can select a new category and difficulty level to start a new round.
+(10)Play Again: After each game, players have the option to play again or exit the game. If they choose to play again, they can select a new category and difficulty level to start a new round.
 
-(k)Score Tracking: Throughout the game, players' scores are updated based on their guesses. The final score is displayed at the end of the game, providing feedback on their performance.
+(11)Score Tracking: Throughout the game, players' scores are updated based on their guesses. The final score is displayed at the end of the game, providing feedback on their performance.
