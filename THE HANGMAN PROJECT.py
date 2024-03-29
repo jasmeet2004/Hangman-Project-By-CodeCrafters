@@ -4,7 +4,7 @@ import pyfiglet
 score=0
 text=pyfiglet.print_figlet(text="HANGMAN",colors="Cyan",font="Slant")
 
-print("\nNOTE:You will get 5 points for every right guess and -2 for every wrong guess.")
+print("\nNOTE:You will get 5 points for every right guess and -2 for every wrong guess")
 while True:
     
     category=input("\nWhich category words you want to guess(Animals,Fruits,Countries,Sports,Car companies)?:").upper()
@@ -59,9 +59,9 @@ while True:
                     "hurdling":"Athletes sprint and jump over a series of obstacles known as hurdles."
                 },
                 "difficult":{
-                    "Bobsledding":"Teams of athletes race down an icy track in a sled at high speeds.",
-                    "Pentathlon":"Modern pentathlon consists of five events: fencing, swimming, equestrian show jumping, and a combined event of pistol shooting and cross-country running.",
-                    "Parkour":" Participants navigate obstacles in urban environments using movements such as jumping, climbing, and running."}
+                    "bobsledding":"Teams of athletes race down an icy track in a sled at high speeds.",
+                    "pentathlon":"Consists of five events: fencing, swimming, equestrian show jumping, and a combined event of pistol shooting and cross-country running.",
+                    "parkour":" Participants navigate obstacles in urban environments using movements such as jumping, climbing, and running."}
 
             },
             "COUNTRIES":{
@@ -78,8 +78,8 @@ while True:
                 },
                 "difficult":{
                     "madagascar":"This island country off the southeastern coast of Africa is known for its unique biodiversity, including lemurs and baobab trees.",
-                    "Kyrgyzstan":"This Central Asian country is known for its stunning mountain landscapes and nomadic traditions.",
-                    "Liechtenstein":"This small European country is known for its beautiful alpine scenery and as a tax haven."}
+                    "kyrgyzstan":"This Central Asian country is known for its stunning mountain landscapes and nomadic traditions.",
+                    "liechtenstein":"This small European country is known for its beautiful alpine scenery and as a tax haven."}
 
 
              
@@ -92,14 +92,14 @@ while True:
 
                 },
                 "medium":{
-                    "Lamborghini":"An Italian brand renowned for its high-performance sports cars and luxurious grand tourers.",
-                    "Maserati":"An Italian luxury vehicle manufacturer known for its exotic sports cars and luxury sedans.",
-                    "Bugatti":": A French luxury automobile brand known for producing some of the fastest and most exclusive cars in the world."
+                    "lamborghini":"An Italian brand renowned for its high-performance sports cars and luxurious grand tourers.",
+                    "maserati":"An Italian luxury vehicle manufacturer known for its exotic sports cars and luxury sedans.",
+                    "bugatti":": A French luxury automobile brand known for producing some of the fastest and most exclusive cars in the world."
                 },
                 "difficult":{
-                    "Koenigsegg":"A Swedish manufacturer known for producing high-performance hypercars with innovative engineering.",
-                    "Wiesmann":"A German manufacturer of hand-built luxury sports cars known for their retro-inspired design and exclusivity.",
-                    "Donkervoort":"A Dutch manufacturer of ultra-lightweight, high-performance sports cars inspired by classic Lotus models."}   
+                    "koenigsegg":"A Swedish manufacturer known for producing high-performance hypercars with innovative engineering.",
+                    "wiesmann":"A German manufacturer of hand-built luxury sports cars known for their retro-inspired design and exclusivity.",
+                    "donkervoort":"A Dutch manufacturer of ultra-lightweight, high-performance sports cars inspired by classic Lotus models."}   
               
               } 
               
